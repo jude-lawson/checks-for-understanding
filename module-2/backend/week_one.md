@@ -118,7 +118,7 @@ activities[:hiking][:supplies] << 'granola bar'
 
 ### Self Assessment:
 Choose One:
-* I was able to answer every question without relying on outside resources (with the exception of the few questions left unanswered toward the end)
+* I was able to answer every question without relying on outside resources (with the exception of the one question left unanswered toward the end)
 
 Choose One:
 * I feel confident about the content presented this week
