@@ -7,6 +7,7 @@ Note: When you're done, submit a PR.
 ### Week 1 Questions
 
 1. List the five common HTTP verbs and what the purpose is of each verb.
+
 * GET - Requests a resource fron a server.
 * POST - Sends a new resource to a server
 * PUT - Updates part of a resource
@@ -26,12 +27,7 @@ So that we can keep our paths defined to a standard, in this case RESTful standa
 Instance variables.
 
 7. Given the following block of code, how would I pass an instance variable `count` with a value of `1` to my `index.erb` template?
-  
-  ```ruby
-  get '/horses' do
-    erb :index
-  end
-  ```
+
 
    ```ruby
   get '/horses' do
@@ -100,12 +96,43 @@ films.each do |film|
 end
 ```
 22. Given the following hash:
+7. In the same code block, how would I pass a local variable `name` with a value of `Mr. Ed` to the view?
+
+8. What's the purpose of ERB?
+
+9. Why do I need a development AND test database?
+
+10. What is CRUD and why is it important?
+
+11. What does HTTP stand for? 
+
+12. What are the two ways to interpolate Ruby in an ERB view template? What's the difference between these two ways?
+
+13. What's an ORM? What does it do?
+
+14. What's the most commonly used ORM in ruby (Sinatra & Rails)?
+
+15. Let's say we have an application with restaurants. There are seven verb + path combinations necessary to provide full CRUD functionality for our restaurant application. List each of the seven combinations, and explain what each is for.
+
+16. What's a migration? 
+
+17. When you create a migration, does it automatically modify your database?
+
+18. How does a model relate to a database?
+
+19. What is the difference between `#new` and `#create`?
+
+
+### Review Questions:  
+20. Given a CSV file (“films.csv”) with these headers [id, title, description], how would you load these into your database to create new instances of Film?  
+
+21. Given the following hash:
 ```
 activities = {
   hiking: {cost: $0, supplies: ['hiking shoes', 'water', 'compass']},
-  karaoke: {cost: $10, supplies: ['courage', 'microphone'],
-  brunch: {cost: $35, supplies: ['mimosa flutes'],
-  antiquing: {cost: $200, supplies: ['list of antique stores'] 
+  karaoke: {cost: $10, supplies: ['courage', 'microphone']},
+  brunch: {cost: $35, supplies: ['mimosa flutes']},
+  antiquing: {cost: $200, supplies: ['list of antique stores']}
 }
 ```
 How would I add 'granola bar' to things you should have when hiking?
@@ -119,6 +146,7 @@ activities[:hiking][:supplies] << 'granola bar'
 ### Self Assessment:
 Choose One:
 * I was able to answer every question without relying on outside resources (with the exception of the one question left unanswered toward the end)
+
 
 Choose One:
 * I feel confident about the content presented this week
