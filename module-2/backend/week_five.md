@@ -45,10 +45,12 @@ Note: When you're done, submit a PR.
   - How to contribute
 
 8. What are the top four accessibility issues that we as developers should be aware of?
-Looking at the lesson on the backend curriculum site, it identifies the following three types of accessiblity issues to be aware of. I'm not sure about the fourth:
+Looking at the lesson on the backend curriculum site, it identifies the following four types of accessiblity issues to be aware of:
+
 * Visual
 * Mobility
 * Cognition
+* Hearing
 
 9. `before_save` is an example of a what? Where in our Rails application would we find a `before_save`?
 - `before_save` is a callback. We might put this in our ApplicationController so that we can define some actions to take whenever saving an object(s) to the database.
